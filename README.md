@@ -26,11 +26,10 @@
 <li><a href="https://countdown-gk18ph0n0.vercel.app/" target="_blank">Countdown live</a></li>
 </ul>
   
-## Short Video
+## Short Gif
 <ul>
-<li>In issues, you can find a short video of the website </li>
-&nbsp &nbsp &nbsp OR
-<li><a href ="https://user-images.githubusercontent.com/72968539/102824780-c9f45b00-43dd-11eb-8726-5d4de74b376d.mp4" target="_blank">you can reach it from here</a></li>
+<li>![countdown](https://user-images.githubusercontent.com/72968539/103479598-25a3e880-4dcf-11eb-92b0-92e232a554b5.gif)
+</li>
 </ul>
 
 ## ScreenShots
