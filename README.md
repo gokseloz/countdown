@@ -33,28 +33,22 @@
 
 ## ScreenShots
 <ul>
- <li>Desktop version without any responsivity</li>
+ <li>Desktop version</li>
  </ul>
 
-![0](https://user-images.githubusercontent.com/72968539/102826822-b5b25d00-43e1-11eb-9ce2-aedc8ad36865.png)
+![1](https://user-images.githubusercontent.com/72968539/103479715-e033eb00-4dcf-11eb-8dd0-f1039ad6fdc9.png)
 
 <ul>
-<li>When its 900px, header top with hamburger-menu is created as fixed on top and left header is showed when clicking hamburger-menu. It can be seen on the next screenshots </li>
+<li>When its 1020px and lower</li>
 </ul>
  
-![1](https://user-images.githubusercontent.com/72968539/102826916-e2667480-43e1-11eb-8b51-28bd27e714a4.png)
+![3](https://user-images.githubusercontent.com/72968539/103479753-1cffe200-4dd0-11eb-9ec7-625588afc772.png)
 
 <ul>
-<li>After clicking hamburger-menu, left-header slides to the page </li>
+<li>When its 600px and lower</li>
 </ul>
  
-![2](https://user-images.githubusercontent.com/72968539/102827200-6d476f00-43e2-11eb-99bf-314332fcc8ee.png)
-
-<ul>
-<li>When its 620px and lower, every component is positioned one under the other </li>
-</ul>
-
-![3](https://user-images.githubusercontent.com/72968539/102827368-bbf50900-43e2-11eb-8c3e-961a510fa245.png)
+![2](https://user-images.githubusercontent.com/72968539/103479768-3d2fa100-4dd0-11eb-8915-431619dbd4b0.png)
 
 
 
