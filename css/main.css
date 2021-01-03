@@ -100,7 +100,8 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-bottom: 2px; }
+      padding-bottom: 2px;
+      z-index: 40; }
       .countDown .timers .item-cd::before {
         content: "";
         position: absolute;
@@ -116,9 +117,16 @@ body {
           font-size: 46px; } }
       @media (max-width: 600px) {
         .countDown .timers .item-cd {
-          width: 65px;
-          height: 60px;
+          width: 80px;
+          height: 75px;
           font-size: 32px;
+          box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.4);
+          border-radius: 3px; } }
+      @media (max-width: 400px) {
+        .countDown .timers .item-cd {
+          width: 60px;
+          height: 55px;
+          font-size: 28px;
           box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.4);
           border-radius: 3px; } }
     .countDown .timers .info {
@@ -142,7 +150,13 @@ body {
           top: 90%;
           letter-spacing: 2px;
           padding-left: 2px;
-          font-size: 6px; } }
+          font-size: 10px; } }
+      @media (max-width: 400px) {
+        .countDown .timers .info {
+          top: 90%;
+          letter-spacing: 1px;
+          padding-left: 1px;
+          font-size: 7px; } }
 
 .social {
   position: absolute;
@@ -151,8 +165,9 @@ body {
   bottom: 50px;
   z-index: 1;
   display: flex;
-  justify-content: center;
-  column-gap: 30px; }
+  justify-content: center; }
+  .social a + a {
+    margin-left: 25px; }
   .social i {
     color: #9e9e9e;
     opacity: .7;

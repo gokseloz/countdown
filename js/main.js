@@ -30,7 +30,7 @@ function newYear(){
         }
         if(document.querySelector(".second").textContent < 10){
             document.querySelector(".second").textContent = `0`+ s
-        }second
+        }
 }
 
 setInterval(function(){
