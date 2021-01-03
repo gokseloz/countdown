@@ -27,9 +27,9 @@
 </ul>
   
 ## Short Gif
-<ul>
+
 ![countdown](https://user-images.githubusercontent.com/72968539/103479598-25a3e880-4dcf-11eb-92b0-92e232a554b5.gif)
-</ul>
+
 
 ## ScreenShots
 <ul>
