@@ -45,7 +45,7 @@
 ![3](https://user-images.githubusercontent.com/72968539/103479753-1cffe200-4dd0-11eb-9ec7-625588afc772.png)
 
 <ul>
-<li>When its 600px and lower</li>
+<li>Between 600px and 300px</li>
 </ul>
  
 ![2](https://user-images.githubusercontent.com/72968539/103479768-3d2fa100-4dd0-11eb-8915-431619dbd4b0.png)
