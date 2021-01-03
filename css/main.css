@@ -33,19 +33,20 @@ body {
         margin-top: -60px; } }
   .countDown .timers {
     display: flex;
-    column-gap: 40px;
     justify-content: center;
     width: 100%; }
-    @media (max-width: 1020px) {
-      .countDown .timers {
-        column-gap: 20px; } }
-    @media (max-width: 600px) {
-      .countDown .timers {
-        column-gap: 10px; } }
     .countDown .timers .timers-item {
       position: relative;
       background: linear-gradient(#2c2e44 50%, #181925 50%);
       border-radius: 8px; }
+      .countDown .timers .timers-item + .timers-item {
+        margin-left: 40px; }
+        @media (max-width: 1020px) {
+          .countDown .timers .timers-item + .timers-item {
+            margin-left: 20px; } }
+        @media (max-width: 600px) {
+          .countDown .timers .timers-item + .timers-item {
+            margin-left: 10px; } }
     .countDown .timers .fold-line {
       width: 100%;
       height: 0.5px;

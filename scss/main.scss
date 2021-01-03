@@ -42,23 +42,27 @@ body {
 
     .timers {
         display: flex;
-        column-gap: 40px;
         justify-content: center;
         width: 100%;
-
-        @media (max-width:1020px){
-            column-gap: 20px;
-        }
-
-        @media (max-width:600px){
-            column-gap: 10px;
-        }
 
         .timers-item{
             position: relative;
             background: linear-gradient(hsl(236, 21%, 22%) 50%, hsl(236, 21%, 12%) 50%);
             border-radius: 8px;
-            
+
+            & + .timers-item {
+                margin-left: 40px;
+
+                @media (max-width:1020px){
+                    margin-left: 20px;
+                }
+
+                @media (max-width:600px){
+                    margin-left: 10px;
+                }
+
+            }
+
         }
 
         .fold-line{             //line on the middle
