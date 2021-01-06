@@ -31,7 +31,7 @@ body {
         font-size: 16px;
         margin-bottom: 50px;
         margin-top: -60px; } }
-    @media (max-height: 280px) {
+    @media (max-height: 375px) {
       .countDown .title {
         margin-bottom: 30px; } }
   .countDown .timers {
