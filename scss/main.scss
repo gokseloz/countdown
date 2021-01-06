@@ -39,7 +39,7 @@ body {
         }
 
         @media (max-height:280px){
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
 
     }
@@ -48,8 +48,6 @@ body {
         display: flex;
         justify-content: center;
         width: 100%;
-
-        
 
         .timers-item {
             position: relative;
@@ -204,6 +202,11 @@ body {
                 padding-left: 1px;
                 font-size: 7px;
             }
+
+            @media (max-height:280px) {
+                top: 95%;
+            }
+
         }
     }
 }

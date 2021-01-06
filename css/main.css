@@ -33,7 +33,7 @@ body {
         margin-top: -60px; } }
     @media (max-height: 280px) {
       .countDown .title {
-        margin-bottom: 50px; } }
+        margin-bottom: 30px; } }
   .countDown .timers {
     display: flex;
     justify-content: center;
@@ -160,6 +160,9 @@ body {
           letter-spacing: 1px;
           padding-left: 1px;
           font-size: 7px; } }
+      @media (max-height: 280px) {
+        .countDown .timers .info {
+          top: 95%; } }
 
 .social {
   position: absolute;
