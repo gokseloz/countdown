@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .countDown {
@@ -21,6 +21,9 @@ body {
     transform: translateX(-50%);
     height: auto;
 
+    @media (max-width:640px) {
+       margin-top: -30px;
+    }
 
 
     .title {
