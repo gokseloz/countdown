@@ -38,12 +38,18 @@ body {
             margin-top: -60px;
         }
 
+        @media (max-height:280px){
+            margin-bottom: 50px;
+        }
+
     }
 
     .timers {
         display: flex;
         justify-content: center;
         width: 100%;
+
+        
 
         .timers-item {
             position: relative;
@@ -206,12 +212,15 @@ body {
     //social-links on the bottom
     position: absolute;
     width: 100%;
-    height: 40px;
-    bottom: 50px;
+    bottom: 30px;
     z-index: 1;
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    
+    @media (max-height:280px){
+        bottom: 10px;
+    }
     a+a {
         margin-left: 25px;
     }
