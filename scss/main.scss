@@ -7,16 +7,20 @@
 }
 
 body {
-    background: #1e1f29 url(/images/bg-stars.svg);
-    overflow: hidden;
+    background: #1e1f29 url(/images/bg-stars.svg) no-repeat center center / cover;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: auto;
 }
 
 .countDown {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
+    height: auto;
+
 
 
     .title {
@@ -24,21 +28,19 @@ body {
         font-size: 26px;
         color: #fff;
         letter-spacing: 10px;
-        margin-top: -80px;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        padding-left: 10px;
+        text-transform: uppercase;
+
 
         @media (max-width:600px) {
-            width: 90%;
             font-size: 16px;
             margin-bottom: 50px;
-            margin-top: -60px;
         }
 
-        @media (max-height:375px){
+        @media (max-height:375px) {
             margin-bottom: 30px;
         }
 
@@ -64,9 +66,7 @@ body {
                 @media (max-width:600px) {
                     margin-left: 10px;
                 }
-
             }
-
         }
 
         .fold-line {
@@ -135,8 +135,8 @@ body {
             justify-content: center;
             align-items: center;
             padding-bottom: 2px;
-          z-index: 40;
-          
+            z-index: 40;
+
 
             &::before {
                 content: "";
@@ -154,7 +154,7 @@ body {
                 font-size: 46px;
             }
 
-            @media (max-width:600px) {
+            @media (max-width:640px) {
                 width: 80px;
                 height: 75px;
                 font-size: 32px;
@@ -196,6 +196,7 @@ body {
                 padding-left: 2px;
                 font-size: 10px;
             }
+
             @media (max-width:400px) {
                 top: 90%;
                 letter-spacing: 1px;
@@ -214,16 +215,18 @@ body {
 .social {
     //social-links on the bottom
     position: absolute;
-    width: 100%;
-    bottom: 30px;
+    left: 50%;
+    right: 50%;
+    bottom: 20px;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    @media (max-height:280px){
+
+    @media (max-height:280px) {
         bottom: 10px;
     }
+
     a+a {
         margin-left: 25px;
     }
@@ -245,7 +248,7 @@ body {
 .hills {
     //hills image on the bottom
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     left: 0;
     right: 0;
     width: auto;
